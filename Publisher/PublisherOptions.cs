@@ -7,7 +7,7 @@ public class PublisherOptions
     public int FailedMessageChainBatchSize { get; set; }
     public string EventTyepsAssemblyName { get; set; }
 
-    public PublisherOptions(int delayMs, int eventsBatchSize, int failedMessageChainBatchSize, string eventTyepsAssemblyName = "")
+    public PublisherOptions(int delayMs, int eventsBatchSize, int failedMessageChainBatchSize, string eventTyepsAssemblyName)
     {
         DelayMs = delayMs;
         EventsBatchSize = eventsBatchSize;

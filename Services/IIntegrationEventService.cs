@@ -1,7 +1,7 @@
 ﻿using MessageBus.Events;
 using MessageBus.IntegrationEventLog.Models;
 
-namespace MessageBus.IntegrationEventLog.Abstractions;
+namespace MessageBus.IntegrationEventLog.Services;
 
 public interface IIntegrationEventService
 {
