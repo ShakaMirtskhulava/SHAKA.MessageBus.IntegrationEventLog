@@ -4,7 +4,7 @@ namespace MessageBus.IntegrationEventLog.Publisher;
 
 public static class PublisherConfigurationExtensions
 {
-    public static void ConfigurePublisher(this IServiceCollection services, Action<PublisherOptions> optionsAction)
+    public static PublisherOptions ConfigurePublisher(this IServiceCollection services, Action<PublisherOptions> optionsAction)
     {
         ArgumentNullException.ThrowIfNull(optionsAction);
 
@@ -12,5 +12,6 @@ public static class PublisherConfigurationExtensions
         optionsAction(options);
 
         services.AddHostedService<Publisher>(provder => new(provder, options));
+        return options;
     }
 }
