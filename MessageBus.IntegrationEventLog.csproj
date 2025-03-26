@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>SHAKA MessageBus IntegrationEventLog</Title>
     <Company>LAM</Company>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageId>SHAKA.MessageBus.IntegrationEventLog</PackageId>
     <Authors>Shaka Mirtskhulava</Authors>
     <Product>SHAKA MessageBus IntegrationEventLog</Product>
