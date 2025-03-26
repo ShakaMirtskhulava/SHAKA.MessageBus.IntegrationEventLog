@@ -1,4 +1,4 @@
-# Event-Driven Database Repository Abstraction
+# Event-Driven Repository Abstraction
 
 This project defines an abstraction for working with databases in an Event-Driven System.
 
