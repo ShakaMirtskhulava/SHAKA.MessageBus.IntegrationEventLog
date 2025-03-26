@@ -26,6 +26,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="MessageBusIntegrationEventLogIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="MessageBusIntegrationEventLogLicence.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="NugetStuff\MessageBusIntegrationEventLogIcon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -35,6 +43,10 @@
       <PackagePath>\</PackagePath>
     </None>
     <None Update="NugetStuff\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
