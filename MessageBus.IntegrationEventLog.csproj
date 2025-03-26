@@ -4,11 +4,40 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SHAKA MessageBus IntegrationEventLog</Title>
+    <Company>LAM</Company>
+    <Version>1.0.0</Version>
+    <PackageId>SHAKA.MessageBus.IntegrationEventLog</PackageId>
+    <Authors>Shaka Mirtskhulava</Authors>
+    <Product>SHAKA MessageBus IntegrationEventLog</Product>
+    <Description>A lightweight abstraction for event-driven database operations, including integration event logging, failed message handling, and outbox pattern implementation to ensure consistency across microservices</Description>
+    <Copyright>Copyright: © SHAKA 2025, All rights reserved. Unauthorized use, duplication, or distribution of this package without permission is prohibited.</Copyright>
+    <PackageIcon>MessageBusIntegrationEventLogIcon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ShakaMirtskhulava/SHAKA.MessageBus.IntegrationEventLog</RepositoryUrl>
+    <PackageLicenseFile>MessageBusIntegrationEventLogLicence.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.1" />
     <PackageReference Include="SHAKA.MessageBus" Version="1.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NugetStuff\MessageBusIntegrationEventLogIcon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="NugetStuff\MessageBusIntegrationEventLogLicence.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="NugetStuff\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
