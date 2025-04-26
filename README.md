@@ -8,7 +8,7 @@ This project defines an abstraction for working with databases in an Event-Drive
 The core of this project starts with defining a generic `IEntity` abstraction. This interface mandates that all entities must implement an `Id` property. The `Id` type is specified using a generic parameter, allowing flexibility in choosing different types of identifiers, such as `int`, `Guid`, `string`, etc., as long as the type implements `IEquatable<T>`.
 
 ### IIntegrationEventLog
-The `IIntegrationEventLogEntry` interface defines the structure of an integration event log. Since different infrastructures may require distinct implementations, this is designed as an interface rather than a class. For example, in an EF Core implementation, attributes may need to be added to its properties to align with entity framework conventions.
+The `IIntegrationEventLog` interface defines the structure of an integration event log. Since different infrastructures may require distinct implementations, this is designed as an interface rather than a class. For example, in an EF Core implementation, attributes may need to be added to its properties to align with entity framework conventions.
 
 ### Failed Message Handling
 We introduce two key abstractions for handling failed messages:
