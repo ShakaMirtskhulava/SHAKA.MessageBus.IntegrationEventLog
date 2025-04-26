@@ -27,7 +27,6 @@ We introduce two key abstractions for handling failed messages:
 ### IIntegrationEventLogService
 This service provides an abstraction for handling integration event logs, allowing us to implement the Outbox Pattern to maintain consistency across microservices. The service includes:
 - **Retrieving batched pending events** for the publisher.
-- **Fetching failed messages** that need to be republished.
 - **Creating failed message chains** via `AddInFailedMessageChain`.
 - **Updating event statuses** through:
   - `MarkEventAsPublished()`
