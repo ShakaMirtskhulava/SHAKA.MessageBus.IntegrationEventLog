@@ -11,7 +11,7 @@ public static class PublisherConfigurationExtensions
         PublisherOptions options = new();
         optionsAction(options);
 
-        services.AddHostedService<Publisher>(provder => new(provder, options));
+        services.AddHostedService<Publisher>(provider => new(provider, options));
         return options;
     }
 }

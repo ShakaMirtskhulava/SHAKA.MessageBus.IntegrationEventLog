@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>SHAKA MessageBus IntegrationEventLog</Title>
     <Company>LAM</Company>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageId>SHAKA.MessageBus.IntegrationEventLog</PackageId>
     <Authors>Shaka Mirtskhulava</Authors>
     <Product>SHAKA MessageBus IntegrationEventLog</Product>
@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.1" />
-    <PackageReference Include="SHAKA.MessageBus" Version="1.0.9" />
+    <PackageReference Include="SHAKA.MessageBus" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
